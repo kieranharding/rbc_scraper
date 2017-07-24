@@ -10,3 +10,15 @@ Dependencies
 ------------
 
 `rbc_scraper` depends on the [`pdf2htmlEX`](https://github.com/coolwanglu/pdf2htmlEX/wiki/Download) command line tool for converting the PDF to an HTML in order for the data to be parsed out.
+
+
+Usage
+-----
+```bash
+$ git clone https://github.com/swill/rbc_scraper.git
+$ cd rbc_scraper
+$ go install
+$ cd /path/to/dir/with/rbc/statements
+$ rbc_scraper
+$ cat transactions.csv
+```
