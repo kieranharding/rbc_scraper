@@ -14,6 +14,16 @@ Dependencies
 
 Usage
 -----
+
+**Downloading Binary**
+```bash
+$ /path/to/dir/with/rbc/statements
+$ wget -O rbc_scraper https://github.com/swill/rbc_scraper/raw/master/bin/rbc_scraper_darwin_amd64
+$ chmod +x rbc_scraper
+$ ./rbc_scraper
+```
+
+**Building Locally**
 ```bash
 $ git clone https://github.com/swill/rbc_scraper.git
 $ cd rbc_scraper
